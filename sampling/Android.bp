@@ -55,6 +55,12 @@ fdo_profile {
 }
 
 fdo_profile {
+    name: "libc++",
+    profile: "libc++.afdo",
+    native_bridge_supported: true,
+}
+
+fdo_profile {
     name: "libgui",
     profile: "libgui.afdo",
 }
