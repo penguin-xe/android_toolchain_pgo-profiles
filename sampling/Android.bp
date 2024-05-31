@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-soong_namespace{
+soong_namespace {
 }
 
 package {
@@ -29,8 +29,8 @@ fdo_profile {
     arch: {
         arm64: {
             profile: "libart_arm64.afdo",
-        }
-    }
+        },
+    },
 }
 
 fdo_profile {
@@ -38,8 +38,8 @@ fdo_profile {
     arch: {
         arm64: {
             profile: "libartbase_arm64.afdo",
-        }
-    }
+        },
+    },
 }
 
 fdo_profile {
@@ -70,8 +70,8 @@ fdo_profile {
     arch: {
         arm64: {
             profile: "libhwui_arm64.afdo",
-        }
-    }
+        },
+    },
 }
 
 fdo_profile {
@@ -87,7 +87,7 @@ fdo_profile {
 
 fdo_profile {
     name: "libui",
-    profile: "libui.afdo"
+    profile: "libui.afdo",
 }
 
 fdo_profile {
@@ -101,18 +101,18 @@ fdo_profile {
     arch: {
         arm64: {
             profile: "linker_arm64.afdo",
-        }
-    }
+        },
+    },
 }
 
 fdo_profile {
     name: "lmkd",
-    profile: "lmkd.afdo"
+    profile: "lmkd.afdo",
 }
 
 fdo_profile {
     name: "surfaceflinger",
-    profile: "surfaceflinger.afdo"
+    profile: "surfaceflinger.afdo",
 }
 
 fdo_profile {
@@ -129,5 +129,5 @@ fdo_profile {
 
 fdo_profile {
     name: "server_configurable_flags",
-    profile: "server_configurable_flags.afdo"
+    profile: "server_configurable_flags.afdo",
 }
